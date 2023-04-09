@@ -1,0 +1,36 @@
+{
+    "groupId": "com.example",
+    "artifactId": "demo",
+    "javaVersion": ["11","17"],
+    "applicationName": "{{ cookiecutter.artifactId.capitalize() + 'Application' }}",
+    "__package": "{{ cookiecutter.groupId + '.' + cookiecutter.artifactId }}",
+    "mongoVersion": "4.6.2",
+    "springBootVersion": [
+        "2.7.10",
+        "3.0.5"
+    ],
+    "monitor": [
+        "yes",
+        "no"
+    ],
+    "prometheus": [
+        "yes",
+        "no"
+    ],
+    "security": [
+        "yes",
+        "no"
+    ],
+    "web": [
+        "yes",
+        "no"
+    ],
+    "postgres": [
+        "yes",
+        "no"
+    ],
+    "mongo": [
+        "yes",
+        "no"
+    ]
+}
