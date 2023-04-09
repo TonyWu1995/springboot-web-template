@@ -10,5 +10,5 @@
 ## User Guide
 - 執行
 ```
-cookiecutter https://
+cookiecutter https://github.com/TonyWu1995/springboot-web-template
 ```
